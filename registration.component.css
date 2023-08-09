@@ -1,0 +1,153 @@
+.signin
+{
+ background: rgba(255, 253, 240, 1);
+ padding: 15% 15% 15% 7%;
+}
+.signinleft
+{
+  background-color: #fff;
+}
+.signinheight
+{
+  margin: 0 auto;
+  height: 100vh;
+}
+.or
+{
+  text-align: center;
+  margin-top: 10%;
+}
+input
+{
+  border: 1px solid #6C757D;
+  background: transparent;
+
+}
+.afterpassword
+{
+    color: #6C757D;
+}
+#name
+{
+  padding-right: 25px;
+  background: url("../assets/image/PROFILE.png") no-repeat 14px;
+  background-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  padding-left: 7% !important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#email
+{
+  padding-right: 25px;
+  background: url("../assets/image/email.png") no-repeat 14px;
+  background-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  padding-left: 7% !important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+select
+{
+    padding-right: 25px;
+    background: url("../assets/image/clock.png") no-repeat 14px,url("../assets/image/dropdown.png") no-repeat 40.5vw;;
+    background-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    padding-left: 7% !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid #BCBCBC;
+}
+#password
+{
+  background: url("../assets/image/lockpass.png") no-repeat 14px,url("../assets/image/eyeHide.png") no-repeat 40.5vw;
+  background-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  padding-left: 7% !important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.afterconfirmpass h1
+{
+    font-size: 1.8rem;
+}
+.stdbtn
+{
+    background-color: transparent;
+    border: 1px solid #e44734;
+    padding-right: 25px;
+    background: url("../assets/image/student-profile.png") no-repeat 18px;
+    /* background-size: 20px; */
+    border-radius: 5px;
+    margin-bottom: 3%;
+    padding-left: 59%;
+    padding-top: 16%;
+}
+.tutbtn
+{
+    background-color: transparent;
+    border:1px solid #e09a1b;
+    padding-right: 25px;
+    background: url("../assets/image/tutor-profile.png") no-repeat 14px;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    padding-left: 59%;
+    padding-top: 16%;
+    margin-left: 63%
+}
+
+
+.lines
+{
+  background: url("../assets/image/line.png") no-repeat 14px;
+}
+#name,#password::placeholder
+{
+color: #6C757D;
+}
+
+.Forgot
+{
+  text-align: right;
+}
+.signinBtn
+{
+  width: 100%;
+  background: #0000;
+  border: 2px solid #343F75;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 2%;
+  font-weight: 600;
+  color: #343F75;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn1
+{
+  background: url("../assets/image/Vector.png") no-repeat 1px;
+  padding-left: 8%;
+}
+
+.btn2
+{
+  background: url("../assets/image/google.png") no-repeat 1px;
+  padding-left: 16%;
+}
+
+.btn3
+{
+  background: url("../assets/image/Apple.png") no-repeat 1px;
+  padding-left: 12%;
+}
+
+.addons
+{
+ 
+  margin-top: 4%;
+}
