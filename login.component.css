@@ -1,0 +1,108 @@
+.signin
+{
+ background: rgba(255, 253, 240, 1);
+ padding: 15% 15% 15% 7%;
+}
+.signinleft
+{
+  background-color: #fff;
+}
+.signinheight
+{
+  margin: 0 auto;
+  height: 100vh;
+}
+.or
+{
+  text-align: center;
+  margin-top: 10%;
+}
+input
+{
+  border: 1px solid #6C757D;
+  background: transparent;
+
+}
+#name
+{
+  padding-right: 25px;
+  background: url("../image/PROFILE.png") no-repeat 14px;
+  background-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  padding-left: 7% !important;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#name,#password::placeholder
+{
+padding-left: 20px;
+color: #6C757D;
+}
+
+#password
+{
+  padding-right: 25px;
+  background: url("../image/lockpass.png") no-repeat 13px,url("../image/eyeHide.png") no-repeat 40.5vw;
+  background-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 3%;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#password::placeholder
+{
+padding-left: 20px;
+}
+
+
+.Forgot
+{
+  text-align: right;
+}
+.signinBtn
+{
+  width: 100%;
+  background: #0000;
+  border: 1px solid #343F75;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 2%;
+  font-weight: 600;
+}
+
+.btn1
+{
+  background: url("../image/Vector.png") no-repeat 1px;
+  padding-left: 13%;
+}
+
+.btn2
+{
+  background: url("../image/google.png") no-repeat 1px;
+  padding-left: 16%;
+}
+
+.btn3
+{
+  background: url("../image/Apple.png") no-repeat 1px;
+  padding-left: 12%;
+}
+.appleaddon
+{
+  padding: 0 !important;
+
+ 
+}
+.googleaddon
+{
+  padding: 0 !important;
+  
+}
+.fbaddon
+{
+  padding: 0 !important;
+;
+}
