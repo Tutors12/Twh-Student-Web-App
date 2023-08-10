@@ -1,0 +1,59 @@
+.thumbnail1
+{
+    background: url('../../assets/dashboard-thumbnail.png')no-repeat;
+    background-size: cover;
+    padding-top: 36%;
+    padding-bottom: 9%;
+    padding-left: 10%;
+}
+.thumbnails-container
+{
+    margin-top: 3%;
+}
+.thumbnail1 h3
+{
+    color: #fff;
+    font-size: 24px;
+}
+.thumbnail1 p
+{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+.thumbnail1 a
+{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.fa-arrow-right,span
+{
+    color: #fff;
+}
+.fa-arrow-right
+{
+    margin-left: 3%;
+}
+.dashboard-container
+{
+    background: url('../../assets/Ellipse.png')no-repeat;
+    background-position: center;
+    
+}
+.eclipsedown
+{
+    background: url('../../assets/Ellipse-down.png')no-repeat bottom;
+}
+.mainbody
+{
+    background: url('../../assets/Ellipsedowndown.png')no-repeat;
+    background-position: bottom;
+    background-position-x: right;
+    padding-bottom: 10%;
+}
+.secondrow
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
