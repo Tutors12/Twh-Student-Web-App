@@ -1,0 +1,44 @@
+.logiProfileColumn
+{
+    padding: 0;
+    margin-top: 10%;
+    margin-left: -3%;
+}
+.Signin-profileimg
+{
+    text-align: right;;
+}
+.profilename h3
+{
+    font-size: 20px;
+    color: #E44734;
+}
+.profilenameStatus p
+{
+    color: #E44734;
+    font-size: 14px;
+    margin-top: -9%;
+}
+.select-icon
+{
+    margin-top: 11%;
+    margin-left: -13%;
+}
+.nav-link
+{
+    color: #343F75;
+    padding: 12px;
+
+}
+.nav
+{
+    margin-top: 3%;
+}
+.signindata
+{
+    margin-top: 4%;
+}
+.header-container
+{
+    background-color: #fff;
+}
