@@ -1,0 +1,26 @@
+.chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: scroll;
+    max-height: 400px; /* Set a maximum height for scrolling */
+  }
+  
+  .chat {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .chat:last-child {
+    border-bottom: none; /* Remove border from the last chat */
+  }
+  
+  .sender {
+    font-weight: bold;
+  }
+  
+  .message {
+    margin-top: 5px;
+  }
