@@ -24,3 +24,34 @@
   .message {
     margin-top: 5px;
   }
+  .scrollarea
+  {
+    min-height: 500px;
+  }
+  .container
+{
+  display: flex;
+  height: 100vh;
+}
+.chat-list
+{
+  width: 40%;
+  margin: 16px;
+  background: #fffdf0;
+  border-radius: 16px;
+}
+.messages
+{
+  width: 60%;
+  margin: 16px;
+  background: #fffdf0;
+  border-radius: 16px;
+}
+.search-input input
+{
+  width: 9%;
+  background: #fffdf0 !important;
+  margin: 24px;
+  border: none;
+  border-bottom: 2px solid #f1f1f1;
+}
