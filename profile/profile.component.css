@@ -125,10 +125,30 @@
     box-shadow: 0px 0px 14px -5px;
     margin-top: 13%;
 }
+.profile-container-update
+{
+    padding-bottom: 4%;
+    background-color: #fffdf0;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 7%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px -5px;
+    margin-top: 13%;
+}
 .profile-passsword-update input
 {
 
     background: url('../../assets/lockpass.png') no-repeat 9px;
+    border: 1px solid #EEECE3;
+    padding-left: 18%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    font-size: 18px;
+}
+.profile-email-update input
+{
+    background: url('../../assets/message.png') no-repeat 9px;
     border: 1px solid #EEECE3;
     padding-left: 18%;
     padding-top: 6%;
@@ -145,4 +165,23 @@
     padding-right: 30%;
     border-radius: 5px;
     border: none;
+    
+    font-size: 18px;
+}
+.profile-passsword-update h1
+{
+font-size: 20px ;
+color: #343F75;
+font-weight: 200;
+}
+.profile-email-update h1
+{
+font-size: 20px ;
+color: #343F75;
+font-weight: 200;
+}
+.profile-passsword-update,.profile-email-update p
+{
+    color: #21252994;
+    font-size:10px;
 }
