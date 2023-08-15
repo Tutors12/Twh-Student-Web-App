@@ -1,7 +1,23 @@
 .signin
 {
  background: rgba(255, 253, 240, 1);
- padding: 15% 15% 15% 7%;
+ padding: 15% 15% 15% 15%;
+}
+.signinTitle h1
+{
+  color: #343F75;
+  font-size: 28px;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: calc(var(--bs-border-width) * -1);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color:#6C757D;
+}
+.signinTitle p
+{
+  color: #6C757D;
+  font-size: 18px;
 }
 .signinleft
 {
@@ -23,9 +39,19 @@ input
   background: transparent;
 
 }
+.optionbtn
+{
+  margin-bottom: 9%;
+}
+.agree label
+{
+  color: #6C757D;
+}
 .afterpassword
 {
-    color: #6C757D;
+  color: #6C757D;
+    font-size: 11px;
+    margin-top: -17px;
 }
 #name
 {
@@ -63,7 +89,7 @@ select
 }
 #password
 {
-  background: url("../assets/image/lockpass.png") no-repeat 14px,url("../assets/image/eyeHide.png") no-repeat 40.5vw;
+  background: url("../assets/image/lockpass.png") no-repeat 14px,url("../assets/image/eyeHide.png") no-repeat 33vw;
   background-size: 20px;
   border-radius: 5px;
   margin-bottom: 3%;
@@ -127,11 +153,14 @@ color: #6C757D;
   font-weight: 600;
   font-size: 20px;
 }
-
+.fbaddons
+{
+  padding: 0;
+}
 .btn1
 {
   background: url("../assets/image/Vector.png") no-repeat 1px;
-  padding-left: 8%;
+  padding-left: 16%;
 }
 
 .btn2
@@ -148,6 +177,6 @@ color: #6C757D;
 
 .addons
 {
- 
+  margin-left: 3%;
   margin-top: 4%;
 }
