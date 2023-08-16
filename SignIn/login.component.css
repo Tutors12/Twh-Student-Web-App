@@ -50,25 +50,26 @@ input
 {
   padding-right: 25px;
   background: url("../assets/image/PROFILE.png") no-repeat 14px;
-  background-size: 20px;
+
+  background-size: auto;
   border-radius: 5px;
   margin-bottom: 3%;
-  padding-left: 7% !important;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-left: 4.2rem !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   font-size: 14px;
-  color:#BCBCBC
+  color:#BCBCBC;
   ;
 }
 #password
 {
-  background: url("../assets/image/lockpass.png") no-repeat 14px,url("../assets/image/eyeHide.png") no-repeat  33vw;
-  background-size: 20px;
+  background: url("../assets/image/lockpass.png") no-repeat 14px,url("../assets/image/eyeHide.png") no-repeat  33.4vw;
+  background-size: auto;
   border-radius: 5px;
   margin-bottom: 3%;
-  padding-left: 7% !important;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-left: 4.2rem !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   font-size: 14px;
 }
 
