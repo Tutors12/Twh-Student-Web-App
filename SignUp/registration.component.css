@@ -188,18 +188,27 @@ color: #6C757D;
 {
   background: url("../assets/image/Vector.png") no-repeat 1px;
   padding-left: 16%;
+  
+  font-size: 13px;
+
 }
 
 .btn2
 {
   background: url("../assets/image/google.png") no-repeat 1px;
   padding-left: 16%;
+
+  font-size: 13px;
+
 }
 
 .btn3
 {
   background: url("../assets/image/Apple.png") no-repeat 1px;
   padding-left: 12%;
+  
+  font-size: 13px;
+
 }
 
 .addons
