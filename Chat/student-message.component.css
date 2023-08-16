@@ -7,6 +7,12 @@
     overflow-y: scroll;
     max-height: 68%;/* Set a maximum height for scrolling */
   }
+  .reciever-message-container
+  {
+
+      margin-left: 4%;
+      margin-top: 1%;
+  }
   
   .chat {
     padding: 17px;
