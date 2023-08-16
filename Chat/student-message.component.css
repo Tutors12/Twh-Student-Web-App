@@ -208,7 +208,7 @@ margin-top: 2.7vh;
   border: none;
   width: 100%;
   background: #0000;
-  margin: 5% 0% 5% 4%;
+  margin: 3% 0% 5% 4%;
 }
 .sent-message-container
 {
@@ -218,7 +218,7 @@ width: 100%;
 .submitbtn-icon
 {
   text-align: right;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 .chat-lists-messages
 {
