@@ -1,62 +1,3 @@
-<!-- <div class="conntainer">
-    <div class="row">
-<div class="col-md-4">
-
-    <div class="chat-container">
-        <div class="chat">
-          <div class="sender">Ella</div>
-          <div class="message">Hey, how's it going?</div>
-        </div>
-        
-        <div class="chat">
-          <div class="sender">Bob</div>
-          <div class="message">Not bad! What about you?</div>
-        </div>
-        
-        <div class="chat">
-            <div class="row">
-                <div class="col-md-2">
-                    <img src="../../assets/chat_profile.png"/>
-                </div>
-                <div class="col-md-8">
-                
-          <div class="sender">Alice</div>
-          <div class="message">Hello doe, Lorem ipsum....</div></div>
-
-          <div class="col-md-2">
-            <div class="time">1 min ago</div>
-            <div class="Remaining-msg">
-<img src="../../assets/Apple.png"/>
-
-            </div>
-        </div>
-
-        </div>
-        </div>
-        <div class="chat">
-            <div class="sender">Alice</div>
-            <div class="message">Hey, how's it going?</div>
-          </div>
-          
-          <div class="chat">
-            <div class="sender">Bob</div>
-            <div class="message">Not bad! What about you?</div>
-          </div>
-          
-          <div class="chat">
-            <div class="sender">Alice</div>
-            <div class="message">I'm doing well, thanks!</div>
-          </div>
-         -->
-        <!-- Add more chat conversations as needed -->
- <!--      </div>
-      
-</div>
-<div class="col-md-8">
-    </div>
-
-</div>
-</div> -->
 <!-- <div class="container">
 <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-body-tertiary">
   <div class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom">
@@ -67,11 +8,11 @@
     *ngFor="let msg of messages">
 
       <div class="d-flex w-100 align-items-center justify-content-between"> -->
-       <!--  <strong class="mb-1">{msg.username}</strong> -->
-       
-      <!-- </div> -->
-      <!-- div class="col-10 mb-1 small">{{msg.message}}</div> -->
- <!--    </div>
+<!--  <strong class="mb-1">{msg.username}</strong> -->
+
+<!-- </div> -->
+<!-- div class="col-10 mb-1 small">{{msg.message}}</div> -->
+<!--    </div>
  
 </div>
    </div>
@@ -82,20 +23,443 @@
    </div> -->
 
 
-   <div class="container">
-    
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
   <div class="chat-list mat-elevation-z5">
     <div class="search-input">
-      
-      <input 
+
+      <!--    <input 
       matInput 
       placeholder="Search for user..." 
        [formControl]="searchControl"
-       />
+       /> -->
+      <form>
+        <div class="row">
+          <div class="col-md-10">
+            <input class="input-search" type="search" placeholder="Search here...">
+          </div>
+          <div class="col-md-2">
+            <img class="search-image" src="../../assets/search.png">
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+
+              <div class="chat-container">
+
+
+
+
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+                <div class="chat">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img class="profile-image" src="../../assets/chat_profile.png" />
+                    </div>
+                    <div class="col-md-8 chat-lists">
+
+                      <div class="sender">Ella</div>
+                      <div class="message">Hello doe, Lorem ipsum....</div>
+                    </div>
+
+                    <div class="col-md-2 chat-lists">
+                      <div class="time">1 min ago</div>
+                      <div class="Remaining-msg">
+                        <img src="../../assets/seven.png" />
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+              </div>
+
+
+
+        
+
+
+            </div>
+
+
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+  <div class="col-md-8">
+  <div class="message-list mat-elevation-z5">
+
+    <div class="chat message-chat">
+      <div class="row">
+        <div class="col-md-1">
+          <img class="profile-chatlist-image" src="../../assets/chat_profile.png" />
+        </div>
+        <div class="col-md-10 chat-lists">
+
+          <div class="Person">John <span style="font-weight: 700;">Doe</span></div>
+          
+        </div>
+
+      
+
+      </div>
+
+
+    </div>
+
+    <div class="row current-day-container">
+      <div class="col-md-5 chat-lists">
+        <img class="lineimage" src="../../assets/single-line.png" />
+      </div>
+      <div class="col-md-2 chat-lists">
+
+        <div class="current-day-message">Today</div>
+        
+      </div>
+      <div class="col-md-5 chat-lists">
+        <img class="lineimage2" src="../../assets/single-line.png" />
+      </div>
+
     
+
+    </div>
+
+<div class="container">
+    <div class="row reciever">
+      <div class="col-md-1">
+        <img class="profile-reciever-chatlist-image" src="../../assets/chat_profile.png" />
+      </div>
+      <div class="col-md-6 chat-lists-messages">
+<div class="reciever-message-container">
+        <div class="Person-message">Hi sir ! The course about Microsoft azure was very good.</div>
+        <div class="person-message-time-date">3/10/2023 10:09AM</div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="row sender-person">
+      <div class="col-md-6">
+      </div>
+     
+      <div class="col-md-6 chat-lists-messages">
+<div class="reciever-message-container">
+        <div class="Person-message-sender">Thank you Pranv ,please join with me for other courses also Thank you Pranv ,please join with me for other courses also</div>
+        <div class="person-message-sender-time-date">3/10/2023 10:09AM</div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="row reciever">
+      <div class="col-md-1">
+        <img class="profile-reciever-chatlist-image" src="../../assets/chat_profile.png" />
+      </div>
+      <div class="col-md-6 chat-lists-messages">
+<div class="reciever-message-container">
+        <div class="Person-message">Hi sir ! The course about Microsoft azure was very good.</div>
+        <div class="person-message-time-date">3/10/2023 10:09AM</div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="row sender-person">
+      <div class="col-md-6">
+      </div>
+     
+      <div class="col-md-6 chat-lists-messages">
+<div class="reciever-message-container">
+        <div class="Person-message-sender">Thank you Pranv ,please join with me for other courses also Thank you Pranv ,please join with me for other courses also</div>
+        <div class="person-message-sender-time-date">3/10/2023 10:09AM</div>
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <div class="row reciever">
+      <div class="col-md-1">
+        <img class="profile-reciever-chatlist-image" src="../../assets/chat_profile.png" />
+      </div>
+      <div class="col-md-6 chat-lists-messages">
+<div class="reciever-message-container">
+        <div class="Person-message">Hi sir ! The course about Microsoft azure was very good.</div>
+        <div class="person-message-time-date">3/10/2023 10:09AM</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row sender-person">
+      <div class="col-md-6">
+      </div>
+     
+      <div class="col-md-6 chat-lists-messages">
+<div class="reciever-message-container">
+        <div class="Person-message-sender">Thank you Pranv ,please join with me for other courses also Thank you Pranv ,please join with me for other courses also</div>
+        <div class="person-message-sender-time-date">3/10/2023 10:09AM</div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+</div>
+<div class="sent-message-container">
+  <div class="container">
+    <div class="row sent-person">
+      <div class="col-md-10">
+        <textarea type="text" class="message-text" placeholder="Type a message"></textarea>
+      </div>
+      <div class="col-md-2 submitbtn-icon">
+        <img src="../../assets/Submit-btn-icon.png" />
+      </div>
       </div>
   </div>
+  
+  </div>
+  
+    </div>
+    </div>
+    </div>
 
-  <div class="messages chat-list mat-elevation-z5">
-  </div>
-  </div>
+</div>
