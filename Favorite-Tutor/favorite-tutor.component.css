@@ -1,0 +1,139 @@
+.page-Title
+{
+    color: #343F75;
+    font-size: 32px;
+    margin-top: 2%;
+}
+.tutor-row
+{
+    padding-top: 2%;
+}
+.favorite_Tutor
+{
+    background-color: #faf9f9;
+    padding-bottom: 5%;
+}
+.featured
+{
+    background-color: #E44734;
+    padding: 1% 1% 4% 1.2%;
+}
+
+.featured h3
+{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 39px;
+    text-align: left;
+}
+.profile_image
+{
+    text-align: center;
+    padding: 15% 0% 15% 0%;
+}
+.Profile_Name h2
+{
+font-size: 32px;
+color: #343F75;
+font-weight: 300;
+}
+.profile_Secondname h2{
+    font-size: 64px;
+    color: #343F75;
+    font-weight: 700; 
+}
+.profile_Secondname
+{
+    margin-top: -5%;
+}
+
+.subject_Name p
+{
+    font-size: 16px;
+    color: #343F75;
+    font-weight: 400; 
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    font-size: 16px;
+}
+.flag
+{
+    text-align: right;
+}
+ 
+input[type="checkbox"] + label:before {
+    content: "\1F5A4";
+    top: -20px;
+    left: -17px;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    transition: .5s ease;
+    font-size: 26px;
+
+}
+input:checked ~ label {
+    color:#E44734;
+  }
+  
+ 
+input[type="checkbox"]:checked + label:before {
+    border: 1px solid transparent;
+    color: #E44734;
+}
+ 
+input[type="checkbox"]:checked + label:after {
+    content: '\1F49B';
+    font-size: 28px;
+    position: absolute;
+    top: -11px;
+    left: -7px;;
+    color: #E44734;
+    transition: .5s ease;
+}
+.Book_now
+{
+    letter-spacing:3px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    background: #0000;
+}
+.book_Nowbtn
+{
+    background-color: #E44734;  
+    text-align: center;
+    padding: 4% 0% 4% 0%;
+}
+.after-img
+{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 4%;
+}
+.tutors_Thumbnail
+{
+    background-color: #fff;
+}
+.container-bg
+{
+    background: url('../../assets/Favorite-tutors-background.png')no-repeat;
+    background-position: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.move-right
+{
+    padding-right: 1.5%;
+}
