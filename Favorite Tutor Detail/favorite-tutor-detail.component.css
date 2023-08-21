@@ -1,7 +1,7 @@
 .favorite-details-Container
 {
     background-color: #FAF9F9;
-    height: 100vh;
+  
 }
 .favorite-tutors-banner
 {
@@ -10,13 +10,467 @@
     background-position: center;
     height: 64vh;
 }
-.left-column,.right-row
+.left-column
 {
     background: #fffdf0;
     box-shadow: 0px 4px 14px -7px;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+.right-row
+{
+    background: #fffdf0;
+    box-shadow: 0px 4px 14px -7px;
+    border-radius: 5px;
+    width: 63%;
+    margin-left: 2.5%;
 }
 .profile_image
 {
     text-align: center;
     margin-top: -13%;
+}
+.Profile_Name
+{
+text-align: center;
+}
+.Profile_Name h2
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 32px;
+    color: #343F75;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.subject p
+{
+    font-weight: 600;
+    font-size: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.subject-Name
+{
+    color: #6C757D;
+}
+.title h1
+{
+font-size: 10px;
+font-weight: 400;
+    color: #54555A;
+}
+.title
+{
+    text-align: center;
+}
+.title span
+{
+    margin-right: 5px;
+}
+.book_Nowbtn button
+{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: #E44734;
+    padding: 9px 40px 8px 40px;
+border-radius: 4px;
+gap: 10px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+font-weight: 600;
+color: #fff;
+border: none;
+}
+.book_Nowbtn
+{
+    text-align: center;
+}
+.share-via
+{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.sharelinks li
+{
+    padding-right: 5%;
+    list-style: none;
+    display: inline-block;
+}
+.google
+{
+    text-align: center;
+    padding-bottom: 11%;
+    padding-top: 2%;
+}
+.rating_Start
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+/* ----------------------------------------2nd column------------------------------------------------------------- */
+
+
+.favorite-tutors-Button
+{
+    text-align: center;
+}
+.favorite-tutors-Button1 img
+{
+    padding-right: 8px;
+   
+}
+.favorite-tutors-Button1 
+{
+  
+border-radius: 8px;
+padding: 11px 38px 11px 31px;
+Gap:12px;
+border: 2px solid #E44734;
+font-size: 18px;
+font-weight: 700;
+background: #0000;
+color: #E44734;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.favorite-tutors-Button1
+{
+    text-align: right;
+}
+.favorite-tutors-Button2 
+{
+  
+border-radius: 8px;
+padding: 11px 38px 11px 31px;
+Gap:12px;
+border: 2px solid #E44734;
+font-size: 18px;
+font-weight: 700;
+background: #0000;
+color: #E44734;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.favorite-tutors-Button3 
+{
+  
+border-radius: 8px;
+padding: 11px 38px 11px 31px;
+Gap:12px;
+border: 2px solid #E44734;
+font-size: 18px;
+font-weight: 700;
+background: #0000;
+color: #E44734;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.details-btn
+{
+    display: inline-flex;
+    margin-top: 2%;
+}
+.details-btn li
+{
+    list-style: none;
+    
+    padding: 12px 16px 12px 4px;
+}
+.details-btn-alignment
+{
+    text-align: left;
+}
+
+.description-data h3
+{
+    color: #343F75;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.description-data
+{
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.description-data p
+{
+    font-size: 14px;
+    color: #6C757D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cv-container
+{
+background: url('../../assets/cv-bg.png')no-repeat;
+background-position-x: 53.9vw;
+background-size: 22% 103%;
+    background-position-y: -1%;
+
+}
+
+/* ..................................................CV...................................................... */
+
+.cv-title h2
+{
+    font-weight: 300;
+    font-size:32px;
+    color:#343F75;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cv-container
+{
+    background-color: #fffdf0;
+    box-shadow: 0px 4px 14px -7px;
+    margin: 4% 16% 4% 16%;
+    padding-bottom: 9%;
+
+}
+.cv-title
+{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.cv-title img
+{
+    margin-right: 6px;
+    margin-top: -2%;
+}
+.about-container 
+{
+    margin-right: 6%;
+    margin-left: 6%;
+}
+.about
+{
+    margin-bottom: 4%;
+}
+.about h2
+{
+    color: #343F75;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about p
+{
+    color: #6C757D;
+    font-size: 14px;
+    font-weight: 400;
+}
+.education h2
+{
+    font-size: 20px;
+    color: #343F75;
+    font-weight: 300;
+}
+.education
+{
+    margin-top: 1%;
+    line-height: 1;
+    margin-bottom: 7%;
+}
+.education p
+{
+    color:#6C757D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+/*......................................Favorite Group class..............................  */
+.page-Title
+{
+    color: #343F75;
+    font-size: 32px;
+    margin-top: 2%;
+}
+.tutor-row
+{
+    padding-top: 2%;
+}
+.favorite_Tutor
+{
+    background-color: #faf9f9;
+    padding-bottom: 5%;
+}
+.featured
+{
+    background-color: #E44734;
+    padding: 1% 1% 55% 1.2%;
+    margin-bottom: -22%;
+}
+
+.featured h3
+{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 39px;
+    text-align: left;
+}
+.profile_image
+{
+    text-align: center;
+   
+}
+.Profile_Name h2
+{
+font-size: 40px;
+color: #343F75;
+font-weight: 300;
+}
+.Profile_Name
+{
+    text-align: center;
+}
+
+.subject_Name p
+{
+    font-size: 16px;
+    color: #343F75;
+    font-weight: 400; 
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 35px;
+    display: inline-block;
+    font-size: 16px;
+}
+.flag
+{
+    text-align: right;
+}
+ 
+input[type="checkbox"] + label:before {
+    content: "\1F5A4";
+    top: -20px;
+    left: -17px;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    transition: .5s ease;
+    font-size: 26px;
+
+}
+input:checked ~ label {
+    color:#E44734;
+  }
+  
+ 
+input[type="checkbox"]:checked + label:before {
+    border: 1px solid transparent;
+    color: #E44734;
+}
+ 
+input[type="checkbox"]:checked + label:after {
+    content: '\1F49B';
+    font-size: 28px;
+    position: absolute;
+    top: -11px;
+    left: -7px;;
+    color: #E44734;
+    transition: .5s ease;
+}
+.Book_now-btn
+{
+    letter-spacing:3px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    background: #0000;
+}
+.book_Nowbtns
+{
+    background-color: #E44734;  
+    text-align: center;
+    padding: 4% 0% 4% 0%;
+    margin-top: 3%;
+
+}
+.after-img
+{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 4%;
+}
+.tutors_Thumbnail
+{
+    background-color: #fff;
+}
+.favorite_Tutor
+{
+   
+    background-position: 102% 100%;
+    background-size: auto;
+    background-color: #faf9f9;
+    padding-bottom: 9%;
+}
+.container-bg
+{
+
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.move-right
+{
+    padding-right: 1.5%;
+}
+.price_Class h2
+{
+    color: #E44734;
+    font-size: 22px;
+    font-weight: 700;
+}
+.flag-row
+{
+    margin-left: -9%;
+    
+}
+.price_Class
+{
+    margin-left: 46%;
+    margin-top: 3%;
+}
+.title h1
+{
+    font-size: 18px;
+    color: #343F75;
+}
+.title p
+{
+    color: #6C757D;
+    font-size: 10px;
+    font-weight: 400;
+}
+.title-row
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.rating_Start img
+{
+    margin-left: 19%;
+}
+.time img
+{    padding-right: 4%;
+    width: 26%;
+}
+.calendar-row
+{
+    
+    margin-left: -5%;
+}
+.calendar-row img
+{
+    padding-right: 5%;
+    width: 21%;
 }
