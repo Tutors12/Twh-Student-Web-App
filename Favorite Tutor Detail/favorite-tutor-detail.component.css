@@ -1,0 +1,22 @@
+.favorite-details-Container
+{
+    background-color: #FAF9F9;
+    height: 100vh;
+}
+.favorite-tutors-banner
+{
+    background: url('../../assets/Favorite-detail-Banner.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 64vh;
+}
+.left-column,.right-row
+{
+    background: #fffdf0;
+    box-shadow: 0px 4px 14px -7px;
+}
+.profile_image
+{
+    text-align: center;
+    margin-top: -13%;
+}
