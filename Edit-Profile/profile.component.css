@@ -154,8 +154,8 @@ body {
     background: url('../../assets/lockpass.png') no-repeat 9px;
     border: 2px solid #EEECE3;
     padding-left: 18%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 10%;
+    padding-bottom: 9%;
     font-size: 16px;
 }
 .profile-email-update input
@@ -163,8 +163,8 @@ body {
     background: url('../../assets/message.png') no-repeat 9px;
     border: 2px solid #EEECE3;
     padding-left: 18%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 10%;
+    padding-bottom: 9%;
     font-size: 16px;
 }
 .profile-email-invite
@@ -242,12 +242,7 @@ font-weight: 200;
 {
     text-align: right;
 }
-.Course-heading h1
-{
-    font-size: 20px;
-    color: #343F75;
-    font-weight: 200;
-}
+
 .description-paragraph p
 {
     color: #6C757D;
