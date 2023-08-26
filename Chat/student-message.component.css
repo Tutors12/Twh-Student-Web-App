@@ -5,7 +5,7 @@
     border-top: 1px solid #ccc;
     border-radius: 5px;
     overflow-y: scroll;
-    max-height: 68%;/* Set a maximum height for scrolling */
+    max-height: 76%;/* Set a maximum height for scrolling */
   }
   .reciever-message-container
   {
@@ -47,7 +47,7 @@
   margin: 16px;
   background: #fffdf0;
   border-radius: 7px;
-  height: 70%;
+  height: 77%;
 }
 
 .message-list
@@ -56,7 +56,7 @@
   margin: 16px;
   background: #fffdf0;
   border-radius: 7px;
-  height: 70%;
+  height: 77%;
 }
 .messages
 {
