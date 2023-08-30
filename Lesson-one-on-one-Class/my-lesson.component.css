@@ -192,3 +192,15 @@ th
     box-shadow: 0px 4px 12px -7px;
     
 }
+.profileicon img
+{
+    width: 12%;
+    padding-right: 4%;
+}
+.text-details button
+{
+    border: none;
+    background-color: #29E97840;
+    border-radius: 8px;
+    padding: 4px 13px 4px 13px;
+}
