@@ -1,0 +1,100 @@
+
+<!-- <div class="container">
+    <table>
+        <thead>
+            <th>Start Time</th>
+            <th>To Time </th>
+            <th>Status</th>
+            <th>Action</th>
+           
+        </thead>
+       <tbody>
+        <tr *ngFor="let post of POSTS">
+        <td>post.id</td>
+       
+        <td>post.title</td>
+      
+        </tr>
+       </tbody>
+    </table>    
+    <div>
+        <pagination-controls
+        previousLabel="Prev"
+        nextlLabel="Next"
+        (pageChange)="onTableDataChange($event)"
+        >
+           
+            </pagination-controls>
+        </div>
+</div> -->
+
+<div class="Appointmenttable">
+<div class="container">
+    <div class="row after-Container">
+    <div class="col-md-6">
+        <div class="appointment-title">
+        <h1>Title <span style="font-weight: 700;">Here</span></h1>
+    </div>
+    </div>
+    <div class="col-md-6 closebtn">
+        <img src="../../assets/close-page-icon.png">
+    </div>
+    <div class="myalllists">
+    <table id="dtBasicExample" cellspacing="0" width="100%">
+        <thead class="top-titles">
+          <tr class="appointmenttitles">
+            <th class="appointment_tableTitle">Start Time </th>
+            <th class="appointment_tableTitle">To Time</th>
+            <th class="appointment_tableTitle">Status</th>
+            <th class=" myaction">Action </th>
+          </tr>
+         <!--  <div class=" row border'sline">
+            <img src="../../assets/course-line.png">
+            </div> -->
+        </thead>
+   
+            <tbody class="inner-details">
+                <tr>
+                    <td class="appintment-text-details">19/08/2021, 07:30AM</td>
+                    <td class="appintment-text-details">19/08/2021, 07:30AM</td>
+                    <td class="appintment-text-details"><button class="btn1"disabled>Completed</button></td>
+                    <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+             
+                  
+                </tr>
+                <tr>
+                    <td class="appintment-text-details">19/08/2021, 07:30AM</td>
+                    <td class="appintment-text-details">19/08/2021, 07:30AM</td>
+                    <td class="appintment-text-details"><button class="btn2" disabled>Pending</button></td>
+                    <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+             
+                  
+                </tr>
+                <tr>
+                    <td class="appintment-text-details downs">19/08/2021, 07:30AM</td>
+                    <td class="appintment-text-details downs">19/08/2021, 07:30AM</td>
+                    <td class="appintment-text-details downs"><button  class="btn3" disabled>In Progress</button></td>
+                    <td class="text-details downs"><img src="../../assets/eye-table-icon.png"></td>
+             
+                  
+                </tr>
+            </tbody>
+    </table>
+       <div class="row btnrow">
+        <div class="col-md-8"></div>
+    <div class="col-md-2">
+        <div class="previousbtn">
+        <button>previous</button></div>
+    </div>
+    <div class="col-md-2">
+        <div class="nextbtn">
+            <button>Next</button></div>
+    </div>    
+    
+    </div>
+ 
+    </div>
+    </div>
+    </div>
+
+    </div>
