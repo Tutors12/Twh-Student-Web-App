@@ -1,3 +1,8 @@
+
+.img-fluid-logo
+{
+    width: 40%;
+}
 .logiProfileColumn
 {
  
@@ -40,9 +45,9 @@
 {
     margin-top: 4%;
 }
-.header-container
+.all-bg
 {
-    background-color: #fff;
+    background-color: #faf9f9;
 }
 .slider-lists
 {
