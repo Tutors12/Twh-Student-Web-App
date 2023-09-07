@@ -1,0 +1,117 @@
+
+.img-fluid-logo
+{
+    width: 40%;
+}
+.logiProfileColumn
+{
+ 
+    padding: 0;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+.Signin-profileimg
+{
+    text-align: right;;
+}
+.profilename h3
+{
+    font-size: 16px;
+    color: #E44734;
+    font-weight: 400;
+}
+.profilenameStatus p
+{
+    color: #E44734;
+    font-size: 14px;
+    margin-top: -9%;
+}
+.select-icon
+{
+    margin-top: 7%;
+    margin-left: -26%;
+}
+.nav-link
+{
+    color: #343F75;
+    padding: 12px;
+
+}
+.nav
+{
+    margin-top: 3%;
+}
+.signindata
+{
+    margin-top: 4%;
+}
+.all-bg
+{
+    background-color: #faf9f9;
+}
+.slider-lists
+{
+    padding: 1% 3% 4% 1%;
+    font-size: 14px;
+    color: #54555A;
+}
+.slider-menu-text
+{
+    background-color: #FFFDF0;
+}
+.move-icon
+{
+    margin-top: 3%;
+    text-align: center;
+}
+.text-slider-lists
+{
+    margin-left: 4%;
+}
+.text-slider-lists li 
+{
+color: #54555A  !important;
+padding-left: 3%;
+
+}
+.nav-item
+{
+    font-size: 14px;
+    color: #343F75;
+}
+
+.dashboard
+{
+    background: url('../../assets/dashboard.png') no-repeat left;
+    background-position: 0% 20%;
+}
+ .messages
+    {
+        background: url('../../assets/message.png') no-repeat left;
+        background-position: 0% 20%;
+    }
+    .profile
+    {
+        background: url('../../assets/icon-profile.png') no-repeat left;
+        background-position: 0% 20%;
+    }
+
+.favorite
+{
+    background: url('../../assets/fav-tutor.png') no-repeat left;
+    background-position: 0% 20%;
+}
+.Group-teacher
+{
+    background: url('../../assets/fav-group-class.png') no-repeat left;
+    background-position: 0% 20%;
+}
+.course
+{
+    background: url('../../assets/fav-course.png') no-repeat left;
+    background-position: 0% 20%;  
+}
+.righticon img
+{
+    margin-left: -143%;
+}
