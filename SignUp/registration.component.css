@@ -84,6 +84,7 @@ input
   padding-top: 2.2rem;
   padding-bottom: 2.2rem;
   font-size: 14px;
+  border: 1px solid #6c757d7a;
 }
 #email
 {
@@ -96,19 +97,23 @@ input
   padding-top: 2.2rem;
   padding-bottom: 2.2rem;
   font-size: 14px;
+  border: 1px solid #6c757d7a;
 }
-select
+.selectoptionicon
 {
     padding-right: 25px;
     background: url("../assets/image/clock.png") no-repeat 14px,url("../assets/image/dropdown.png") no-repeat 33vw;
-    background-size: auto;
+    background-size: 4%;
     border-radius: 5px !important;
     margin-bottom: 3% !important;
-    padding-left: 4.2rem !important;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: #6C757D;border: 1px solid #6c757d7a;
+    padding-left: 5.2rem !important;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    color: #6C757D;
+    border: 1px solid #6c757d7a;
+    font-size: 14px;
 }
+
 #password
 {
   background: url("../assets/image/lockpass.png") no-repeat 14px,url("../assets/image/eyeHide.png") no-repeat 33vw;
@@ -119,6 +124,7 @@ select
   padding-top: 2.2rem;
   padding-bottom: 2.2rem;
   font-size: 14px;
+  border: 1px solid #6c757d7a;
 }
 .afterconfirmpass h1
 {
