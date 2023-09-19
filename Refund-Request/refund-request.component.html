@@ -1,0 +1,340 @@
+<app-header></app-header>
+<!-- <div class="container">
+    <table>
+        <thead>
+            <th>Start Time</th>
+            <th>To Time </th>
+            <th>Status</th>
+            <th>Action</th>
+           
+        </thead>
+       <tbody>
+        <tr *ngFor="let post of POSTS">
+        <td>post.id</td>
+       
+        <td>post.title</td>
+        <td>post.id</td>
+       
+        <td>post.title</td>
+        </tr>
+       </tbody>
+    </table>    
+    <div>
+        <pagination-controls
+        previousLabel="Prev"
+        nextlLabel="Next"
+        (pageChange)="onTableDataChange($event)"
+        >
+           
+            </pagination-controls>
+        </div>
+</div>  -->
+
+<div class="lesson-group-class">
+    <div class="container">
+  
+    
+  
+  
+      <div class="row searching-option">
+        
+            <div class="col-md-3">
+          
+                <select class="form-select selectoptionicon">
+                    <option class="selectitems">Show Entries</option>
+                    <option class="selectitems">2</option>
+                    <option class="selectitems">3</option>
+                    <option class="selectitems">4</option>
+                  </select>     
+        
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-5 input-searchbar">
+  
+            <div class="input-group mb-3">
+           
+              <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+                placeholder="Enter Course Code">
+            </div>
+          </div>
+      </div>
+  
+  
+      <div class="row" >
+        <div class="col-md-12">
+        </div>
+        <table id="dtBasicExample" cellspacing="0" width="100%">
+          <thead>
+            <tr>
+              <th class="th-sm">Tutor Name<img src="../../assets/up-down-arrow.png">
+              </th>
+              <th class="th-sm">Subject<img src="../../assets/up-down-arrow.png">
+              </th>
+              <th class="th-sm">Group Class<img src="../../assets/up-down-arrow.png">
+              </th>
+              <th class="th-sm">Self-paced Courses<img src="../../assets/up-down-arrow.png">
+              </th>
+              <th class="th-sm"> Type<img src="../../assets/up-down-arrow.png">
+              </th>
+              <th class="th-sm">Enroll Type<img src="../../assets/up-down-arrow.png">
+              </th>
+              <th class="th-sm">Code<img src="../../assets/up-down-arrow.png">
+              </th>
+              <th class="th-sm">Price<img src="../../assets/up-down-arrow.png">
+              </th>
+            
+              <th class="th-sm">Created On<img src="../../assets/up-down-arrow.png">
+              </th>
+              <th class="th-sm">Status<img src="../../assets/up-down-arrow.png">
+              </th>
+              <th class="th-sm">Action <img src="../../assets/up-down-arrow.png"> </th>
+            </tr>
+          </thead>
+          <tbody class="inner-details">
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="text-details profileicon"><img src="../../assets/icon-profile.png">John Doe</td>
+              <td class="text-details">Design</td>
+              <td class="text-details">DSLR Photography</td>
+              <td class="text-details-Model">Model complex 3D architec-tural <br>geometry with <br>Rhinoceros</td>
+              <td class="text-details"><button disabled>Booking</button></td>
+              <td class="text-details-pending"><button disabled>Self Paced Courses</button></td>
+              <td class="text-details">BME0D</td>
+              <td class="text-details">$70</td>
+              <td class="text-details">Nov 22, 2021</td>
+              <td class="text-details"><button disabled>Completed</button></td>
+              <td class="text-details"><img src="../../assets/eye-table-icon.png"></td>
+            </tr>
+            <tr>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              <td class="last-row"></td>
+              </tr>
+  
+          </tbody>
+  
+        </table>
+      </div>
+  
+      
+  
+      <div class="row buttons-row">
+        <div class="col-md-8">
+          <div class="entries-details">
+            <p>1 to 15 of 430 entries</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+  
+          <div class="row">
+            <div class="col-md-3 previousbtn">
+              <button class="pg-previous-btn">Previous</button>
+            </div>
+            <div class="col-md-1 numberbtn"><button class="pg-first-btn">1</button></div>
+            <div class="col-md-1 numberbtn"><button class="pg-first-btn2">2</button></div>
+            <div class="col-md-1 numberbtn"><button class="pg-first-btn2">3</button></div>
+            <div class="col-md-1 numberbtn"><button class="pg-first-btn2">4</button></div>
+            <div class="col-md-3 "> <button class="pg-next-btn">Next</button></div>
+          </div>
+  
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
